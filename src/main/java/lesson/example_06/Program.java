@@ -15,6 +15,5 @@ public class Program {
         hero3.GetDamage(hero3.Attack());
         System.out.println(hero3.getInfo());
         System.out.println(hero2.getInfo());
-        //hero3.GetDamage(hero3.Attack());
     }
 }

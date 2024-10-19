@@ -9,24 +9,24 @@ public class Program {
 
         // #region ex1 Demo
 
-        // BaseHero hero3 = new Magician();
-        // System.out.println(hero3.getInfo());
+         BaseHero hero3 = new Magician();
+         System.out.println(hero3.getInfo());
 
-        // BaseHero hero4 = new Priest();
-        // System.out.println(hero4.getInfo());
+         BaseHero hero4 = new Priest();
+         System.out.println(hero4.getInfo());
 
         // #endregion
 
         // #region ex2 Attack
-        // System.out.println("------");
-        // System.out.println(hero3.getInfo());
-        // System.out.println(hero4.getInfo());
+         System.out.println("------");
+         System.out.println(hero3.getInfo());
+         System.out.println(hero4.getInfo());
 
-        // hero3.Attack(hero4);
+         hero3.Attack(hero4);
 
-        // hero4.Attack(hero3);
-        // System.out.println(hero3.getInfo());
-        // System.out.println(hero4.getInfo());
+         hero4.Attack(hero3);
+         System.out.println(hero3.getInfo());
+         System.out.println(hero4.getInfo());
 
         // #endregion
 
@@ -57,7 +57,6 @@ public class Program {
 
         // #endregion
 
-        // todo добавить ещё один класс и
-        // реализовать возможность лечения героев
+        // todo добавить ещё один класс и реализовать возможность лечения героев
     }
 }
